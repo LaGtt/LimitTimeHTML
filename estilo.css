@@ -1,0 +1,305 @@
+@charset "utf-8";
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
+
+
+.encabezado
+{
+display: flex;
+justify-content:center;
+}
+
+header:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+body:after{
+	content:' ';
+	display: block;
+	clear: both;
+} 
+#contenedor
+{
+	margin-left: 5%;
+	padding-bottom: 5%;
+}
+#contenedor2
+{
+	justify-content: center;
+    margin-left: 25%;
+    display: unset;
+}
+#contenedor2 img{
+padding-top: 3%;
+}
+
+.menu {
+  overflow: hidden;
+  padding: 20px 10px;
+}
+.menu a.logo {
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 8.3%;
+}
+
+.menu a {
+	font-family: 'Open Sans', sans-serif;
+  float: left;
+  color: white;
+  text-align: center;
+   text-decoration: none;
+  padding: 18px;
+font-weight: bold;
+  font-size: 1em; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+.menu-derecha {
+  float: right;
+  margin-right: 8.3%;
+}
+.ban{
+display:block;
+	justify-content:center;
+}
+.Allfeatured
+{
+	font-family: 'Open Sans', sans-serif;
+	background-color: #77c136;
+	display: block;
+  justify-content:center;
+}
+.Allfeatured p,h1,h2,h3,li{
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 2%;
+	display:block;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+}
+.Allfeatured h1{
+	font-size: 3.3em;
+	text-align: left;
+	
+}
+.Allfeatured li{
+	text-align: left;
+	display: list-item;
+	list-style-image: url('imgs/bullet.png');
+	
+}
+.Allfeatured h3{
+	font-size: 1em;
+	text-align: left;
+	margin-top:10%;
+	color: white;
+	
+}
+
+.Allfeatured{
+	display: block;
+}
+
+
+.tit1
+{
+	margin-right: auto;
+	justify-content: center;
+}
+.tit1 img{
+	float:left;
+}
+
+#Banner
+{
+background-image: url("imgs/s2-banner-image.png");
+background-position: center; /* Center the image */
+background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  justify-content:center;
+}
+.encabezado h1,p{
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+.encabezado h1
+{
+	margin-top: 40px;
+	font-style: bold;
+	margin-bottom: 60px;
+	font-size: 4em;
+	margin-top: 10%;
+	color:white;
+}
+.Principal{
+	justify-content:center;
+	display: inline-block;
+}
+#Titulos
+{
+	text-align: center;
+}
+#Titulos h1{
+	color: black;
+}
+#A1
+{
+width: 100%;
+}
+#columna1 h2{
+	color:gray;
+	text-align: center;
+    margin-left: 5%;
+}
+.encabezado p
+{
+	margin-top: 40px;
+	margin-bottom: 60px;
+	color: white;
+}
+
+.piepagina
+{
+	padding-top: 5%;
+	background-color: #26242b;
+}
+.piepagina h1,h2,h3,p{
+	font-family: 'Open Sans', sans-serif;
+	color:white;
+	text-align: center;
+}
+.piepagina h3
+{
+	text-transform: uppercase;
+	color: white;
+}
+.piepagina p
+{
+	color: white;
+}
+.columnainfo h1,h2,h3,p{
+	font-family: 'Open Sans', sans-serif;
+	color: gray;
+}
+@media only screen and (min-width: 650px) {
+    /* For desktop: */
+    [class*="col-"] {
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+.btn{
+	margin-top: 10%;
+	width: 50%;
+}
+.Allfeatured img{
+	width: 100%;
+}
+.Allfeatured{
+	display: flex;
+	text-align: center;
+}
+
+#columna1 h2{
+	color:gray;
+	text-align: left;
+ 
+}
+.columnainfo{
+	display: flex;
+	justify-content: center;
+}
+
+
+
+.columnainfo p{
+	display: inline-block;
+	color: gray;
+	margin-top: 10%;
+	text-align: justify;
+}
+
+#boton{
+display: flex;
+margin-left: 35%;
+margin-bottom: 10%;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 40px;
+padding-right: 40px;
+}
+
+.clearfix{
+	overflow: auto;
+}
+#LogoIMG{
+	float:left;
+	padding-left: 70px;
+	margin-top: 3%;
+}
+#espacioencabezado
+{
+	display:block;
+	margin-right: auto;
+	margin-top: 10%;
+
+}
+#EspacioSuperior
+{
+	display:block;
+	justify-content:center;
+}
+
+#espacioFeatured
+{
+	display: block;
+}
+#espacioFeatured img{
+	float:left;
+}
+#textoFeatured h1,h2,h3,p,li,ul{
+	color: white;
+}
+
+#boton2{
+margin-bottom: 7%;
+background-color: rgba(0.1,0.1,0.1,0.1);
+padding-top:20px;
+padding-bottom:20px;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+
+hr{
+	width: 70%;
+}
+.copy img
+{
+	display:inline-block;
+}
+.copy{
+padding-bottom: 20%;
+}
+.Principal{
+	margin-bottom: 7%;
+}
+.Principal h1,h2,h3
+{
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+.Principal h1
+{
+	font-size: 2.5em;
+}
+.Principal h3
+{
+	font-size: 1em;
+	color: gray;
+	text-transform: uppercase;
+	margin-top: 4%;
+	margin-bottom: 2%;
+}
